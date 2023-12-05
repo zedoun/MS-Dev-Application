@@ -3,3 +3,11 @@ controllers:
         path: ../src/Controller/
         namespace: App\Controller
     type: attribute
+
+    # config/routes.yaml
+app_finaliser:
+    path: /commande
+    controller: App\Controller\CommandeController::index
+   
+    # Autres configurations éventuelles
+

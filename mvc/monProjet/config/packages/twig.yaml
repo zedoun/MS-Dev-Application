@@ -5,4 +5,7 @@ when@test:
     twig:
         strict_variables: true
 
+ #paths:
+        # pointe vers votre dossier d'images
+        #'%kernel.project_dir%/public/img': images
         form_themes: ['bootstrap_5_horizontal_layout.html.twig']

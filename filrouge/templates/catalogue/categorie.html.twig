@@ -1,0 +1,27 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}categoie{% endblock %}
+
+{% block body %}
+<div class="fluid">
+<div class="row">
+{% for categorie in categories %}
+<div class="col-3">
+
+<div>
+
+    {{categorie.libelle}} 
+</div>
+<div>
+
+     <a href="{{ path('app_plats', {'id': categorie.id}) }}">
+
+    <img src="/image_de_district/category/{{categorie.image}}" class="img-fluid" style="max-height:400px" alt="image">
+    </a>
+</div>
+</div>
+{% endfor %}
+<div>
+
+</div>
+{% endblock %}

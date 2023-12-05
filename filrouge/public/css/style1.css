@@ -1,0 +1,322 @@
+ 
+ body {
+    background-color: rgb(157, 80, 68);
+}
+header {
+    position:relative;
+    width: 100%;
+    height: 220px;
+    left: 3px;
+    right:3px ;
+    top: 5px;
+    font-style: italic;
+    font-size: 40px;
+    color: #9b044adc;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    background: #bd7816;
+    border-radius: 25px;
+    border-style: groove;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 800;
+    line-height: 100%;
+}
+#carouselExampleAutoplaying{
+    position:relative;
+    width: 100%;
+    height: 385px;
+    left: 3px;
+    right:3px ;
+    top: 10px;
+    bottom:10px ;
+       font-size: 20px;
+       font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 500;
+    line-height:100%;
+}
+.cont {
+    background-image: url('/home/stagiaire/Bureau/MS Dev Application/filrouge/public/image_de_district/platter-2009590_640.jpg');
+    background-size: cover;
+    min-height: 100vh;
+    background-attachment: fixed;
+}
+
+
+form{
+    
+     border-radius: 25px;
+    font-style: italic;
+    font-size: 20px;
+    color: #1DA6F2;
+  
+    font: weight 100%;;
+    line-height: 20px;
+
+}
+
+
+        .bg-success {
+            --bs-bg-opacity: 1;
+            background-color: rgba(var(--bs-success-rgb), var(--bs-bg-opacity)) !important;
+          }       
+
+
+.img-fluid {
+    width: 350px;
+    height: 200px;
+    left: 500px;
+    top: 389px;
+    border-radius: 30px;
+}
+
+
+#contact {
+    
+    position:relative;
+    width:1400px;
+    height:550px;
+    left: 250px;
+    top:20px;
+    font-style:oblique;
+    color: #491107dc;
+    font-size:100px;
+    background: #5c3702;
+    border-radius: 40px;
+    border-style: groove;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 500;
+    line-height:100%;
+}
+    #panier {
+    
+        position:relative;
+        width:1400px;
+        height:400px;
+        top:40px;
+        font-style:oblique;
+        color: #491107dc;
+        font-size:30px;
+        background: #5c3702;
+        border-radius: 30px;
+        border-style: groove;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-weight: 40px;
+        line-height:100%;
+      
+  
+}
+
+
+
+#delivery {
+    
+    position:relative;
+    width:1400px;
+    height:450px;
+    top: -70PX;
+    
+    font-style:oblique;
+    color: #520a06dc;
+    font-size:100px;
+    background: #5c3702;
+    border-radius: 20px;
+    border-style: groove;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 500;
+    line-height:100%;
+  
+}
+
+#finaliser {
+    
+    position:relative;
+    width:1400px;
+    height:520px;
+    left: 10px;
+    top:60px;
+    font-style:oblique;
+    color: #520a06dc;
+    font-size:100px;
+    background: #5c3702;
+    border-radius: 20px;
+    border-style: groove;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 500;
+    line-height:100%;
+  
+}
+.form-label
+
+{
+    
+    position:relative;
+    
+    font-style:unset;
+    color: #f5aca8dc;
+    font-size:30px;
+    background: #5c3702;
+    border-radius: 10px;
+    border-style:inherit;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 50px;
+    line-height:22px;
+  
+}
+
+
+
+
+
+
+#footer {
+    position:inherit;
+    width:100%;
+    height: 260px;
+    left: 3px;
+    right:3px ;
+    top: 15px;
+    bottom:10px ;
+    font-style: italic;
+    font-size: 17px;
+    color: #9b044adc;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    background: #bd7816;
+    border-radius: 25px;
+    border-style: groove;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 600;
+    line-height: 100%;
+      
+}
+
+.logos {
+    width: 800px;
+    height:90px ;
+    border-radius: 25px; 
+}
+
+
+.survol:hover {
+    transform: scale(1.4);
+}
+/* page catéorie */
+
+/*
+#b2 {
+    width: 250px;
+    height: 75px;
+    left: 1150px;
+    top: 850px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 25px;
+    font-style: italic;
+    font-size: 40px;
+    color: #1DA6F2;
+    background: #5e0202;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 900;
+    line-height: 100%;
+}*/
+
+.parallax{
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(https://wallpaperaccess.com/download/restaurant-385454)center fixed no-repeat;
+    background-size: cover;
+    height: auto;
+   }
+  
+
+#banniere {
+    width: 1847px;
+    height: 200px;
+}
+
+
+
+.card {
+    margin-right: 20px; 
+}
+
+#vid {
+    width: 100%;
+    height: 350px;
+}
+
+li {
+    min-width: 200px;
+}
+
+
+
+.cat:hover {
+    transform: scale(1.1);
+}
+
+.plat {
+    width: 300px;
+    height: 175px;
+}
+
+.footer {
+   position: relative;
+    bottom: 25px;
+    border: 5px solid #970747;
+    width: 400px;
+    background-color: #970747;
+}
+
+.footer2 {
+    position: relative;
+
+    border: 5px solid #970747;
+    width: 400px;
+}
+
+.rs {
+    color: rgb(104, 23, 4);
+}
+
+.btn {
+    background-color: #970747;
+    border: #970747;
+    color: antiquewhite;
+}
+
+.bouton {
+    position: relative;
+    bottom: 80px;
+}
+
+#suivant {
+
+    left: 210px;
+}
+
+#precedent {
+
+    right: 225px;
+}
+
+#titre {
+    position: relative;
+    bottom: 170px;
+    left: 240px;
+}
+
+
+
+#quantite {
+    position: relative;
+    bottom: 150px;
+    left: 270px;
+}
+
+#nombre {
+    position: relative;
+    bottom: 200;
+}
+
+#cont {
+    position: relative;
+    bottom: 120px;
+    right: 100px;
+}
+

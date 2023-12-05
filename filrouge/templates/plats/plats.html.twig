@@ -1,0 +1,44 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}les Plats{% endblock %}
+
+{% block body %}
+    <div class="contenu">
+        <h1 class="fst">*   le menu</h1>
+        <main class="container">
+            <div class="row">
+                {% set sortedPlats = plats|sort((a, b) => a.libelle <=> b.libelle) %}
+                {% for plat in sortedPlats %}
+                    <div class="col-md-6 mb-4">
+                        <div class="card" id="images" style="width: 18rem;">
+                            <img src="/image_de_district/plat/{{plat.image}}" alt="{{ plat.libelle }}">
+                            <div class="card-body">
+                                <h5 class="card-title">{{ plat.libelle }}</h5>
+                                <p class="card-text">
+                                    {{ plat.description }}
+                                </p>
+                                <p class="content bg-body">
+                                    {{ plat.prix }} euros
+                                </p>
+                                 <div class="d-flex justify-content-between">
+                                    <button class="btn btn-secondary bg-danger quantity-button" data-plat-id="{{ plat.id }}" data-action="decrement">( - )</button>
+                                    <input  name="quantite" value="1" min="1" max="10" class="quantity-input col-2 text-center" data-plat-id="{{ plat.id }}">
+                                    <button class="btn btn-secondary bg-success quantity-button" data-plat-id="{{ plat.id }}" data-action="increment">( + )</button>
+                                </div>
+                                <a href="{{ path('panier_add_panier', { id: plat.id }) }}">Vieullez ajouter au panier</a>
+                            </div>
+                        </div>
+                    </div>
+                    {% if loop.index is even %}
+                    </div>
+                    <div class="row">
+                    {% endif %}
+                {% endfor %}
+            </div>
+        </main>
+    </div>
+{% endblock %}
+
+
+
+

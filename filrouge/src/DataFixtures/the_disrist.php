@@ -42,6 +42,9 @@ $infouser = array(
   array('id' => '2','pseudo' => 'admin','email' => 'monnom@gmail.com','mdp' => '54321')
 );
 
+
+
+
 /* `the disrist`.`plat` */
 $plat = array(
   array('id' => '4','libelle' => 'District Burger','description' => 'Burger composé d’un bun’s du boulanger, deux steaks de 80g (origine française), de deux tranches poitrine de porc fumée, de deux tranches cheddar affiné, salade et oignons confits. .','prix' => '8.00','image' => 'hamburger.jpg','id_categorie' => '5','active' => 'Yes'),

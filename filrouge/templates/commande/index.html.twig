@@ -1,0 +1,43 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Accueil{% endblock %}
+
+{% block body %}
+<div class="container">
+    <br><br><br><br>
+    <div  id="delivery" class="row">
+        <div class="col-md-10">
+
+            <h1>Information de Livraison</h1>
+
+{{ form_start(deliveryForm) }}            
+            {{ form_row(deliveryForm.nom) }}
+            {{ form_row(deliveryForm.prenom) }}
+            {{ form_row(deliveryForm.pays) }}
+            {{ form_row(deliveryForm.ville) }}
+            {{ form_row(deliveryForm.adresse) }}
+            {{ form_row(deliveryForm.codepostal) }}
+{{ form_end(deliveryForm) }}
+
+        </div>
+
+    <div id="finaliser"class="row">
+        <div class="col-md-10">
+            <h1>Payer votre facture</h1>
+
+{{ form_start(FinaliserForm) }}            
+            {{ form_row(FinaliserForm.nom) }}
+            {{ form_row(FinaliserForm.prenom) }}
+            {{ form_row(FinaliserForm.pays) }}
+            {{ form_row(FinaliserForm.ville) }}
+            {{ form_row(FinaliserForm.adresse) }}
+            {{ form_row(FinaliserForm.codepostal) }}
+            {{ form_row(FinaliserForm.total) }}
+ {{ form_end(FinaliserForm) }}           
+        </div>
+    </div>
+</div>
+
+
+<br><br>
+{% endblock %}
